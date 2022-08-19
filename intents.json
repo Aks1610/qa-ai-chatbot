@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+      "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "Hello! I'm Dexter. How may I help you?", "Hey there!"],
+      "context_set": ""
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["Bye", "Good day"],
+      "responses": ["Pleasure to help you", "Have a Nice Day"],
+      "context_set": ""
+    },
+    {
+      "tag": "status",
+      "patterns": ["What is the status of KAF-1234", "KAF-1234 status"],
+      "responses": ["KAF-1234 is in progress click here to know more"],
+      "context_set": ""
+    }
+  ]
+}
