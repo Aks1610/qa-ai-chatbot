@@ -14,8 +14,14 @@
     },
     {
       "tag": "status",
-      "patterns": ["What is the status of KAF-1234", "KAF-1234 status"],
+      "patterns": ["What is the status of JIRA KAF-1234", "KAF-1234 status"],
       "responses": ["KAF-1234 is in progress click here to know more"],
+      "context_set": ""
+    },
+    {
+      "tag": "regression",
+      "patterns": ["Show me regression Report", "Regression Report"],
+      "responses": ["Regression ran at 12:00 am IST on 25th August 2022. 80% Passed - 20% Failed Click here to know more"],
       "context_set": ""
     }
   ]
